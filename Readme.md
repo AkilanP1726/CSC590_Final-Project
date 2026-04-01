@@ -1,6 +1,6 @@
-Genomics SNP Binary Classification — Machine Learning Pipeline
+Genomics SNP Binary Classification - Machine Learning Pipeline
 
-A Research Project for CSC 590 — California State University, Dominguez Hills
+A Research Project for CSC 590 - California State University, Dominguez Hills
 
 Project Overview
 
@@ -15,7 +15,7 @@ Additive + Epistatic Mix
 Heterogeneous Genetic Architectures
 
 The project follows real genomic simulation designs used in GAMETES and related research (Urbanowicz et al., 2012; Woodward et al., 2022).
-The goal is to analyze how ML models behave under additive, epistatic, and heterogeneous genetic effects — and to build a reproducible evaluation framework.
+The goal is to analyze how ML models behave under additive, epistatic, and heterogeneous genetic effects - and to build a reproducible evaluation framework.
 
 Dataset Categories
 1. Basic Datasets (100 features)
@@ -120,17 +120,12 @@ data/challenge/
 
 Open the script:
 
-DATA_ROOT = Path(r"C:\path\to\data")
+DATA_ROOT = Path(r"C:\Users\apandiyan1\Documents\Academics\Fall 2025\CSC 590 - Final Project\Simulated_Genomic_Binary-Class\data")
 
 
 Run:
 
 python pipeline.py
-
-
-All results will appear under:
-
-results/<dataset_name>/<model_name>/
 
 Key Results Summary
 Dataset	Best Model	ROC-AUC	Notes
@@ -161,7 +156,12 @@ Feature Importance
 
 References
 
-(Use the required 10 references you listed earlier.)
+• Urbanowicz, R.J., Kiralis, J., Sinnot-Armstrong, N.A., Heberling, T., Fisher, J.M. and Moore, J.H., 2012. GAMETES: a fast, direct algorithm for genera􀆟ng pure, strict, epista􀆟c models with random architectures. BioData mining, 5, pp.1-14.
+• Urbanowicz, R.J., Kiralis, J., Fisher, J.M. and Moore, J.H., 2012. Predic􀆟ng the difficulty of pure, strict, epista􀆟c models: metrics for simulated model selec􀆟on. BioData mining, 5(1), pp.1-13.
+• Woodward, A.A., Urbanowicz, R.J., Naj, A.C. and Moore, J.H., 2022. Gene􀆟c heterogeneity: Challenges, impacts, and methods through an associa􀆟ve lens. Genetic Epidemiology, 46(8), pp.555-571.
+• Urbanowicz, R.J., Meeker, M., La Cava, W., Olson, R.S. and Moore, J.H., 2018. Relief-based feature selec􀆟on: Introduc􀆟on and review. Journal of biomedical informatics, 85, pp.189-203.
+• Urbanowicz, R.J., Olson, R.S., Schmit, P., Meeker, M. and Moore, J.H., 2018. Benchmarking relief-based feature selec􀆟on methods for bioinforma􀆟cs data mining. Journal of biomedical informatics, 85, pp.168-188.
+• Urbanowicz, R., Zhang, R., Cui, Y. and Suri, P., 2023. STREAMLINE: A Simple, Transparent, End-To-End Automated Machine Learning Pipeline Facilita􀆟ng Data Analysis and Algorithm Comparison. In Gene􀆟c Programming
 
 Author
 
